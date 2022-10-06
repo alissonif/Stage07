@@ -103,45 +103,74 @@
 <div align="left">
 
      *****Git-parte1*****
+
 git init=inicia o git no projeto/pasta
-git config --global user.name "José Alisso
-n"
+
+git config --global user.name "José Alisson"
+
 git master → git config --global user.email "fulano@gmail.com"
+
 git config --list  =lista todas as configurações do git
+
 1 git add .=prepara os arquivos
+
 3 git commit -m "created index.html"=salva um ponto na linha do tempo do github
+
 git log=histórico
+
 git log oneline=histórico sem mecionar o autor
+
 git log -n 3=quantidades de registros que vc quer ver
+
 2 git status=status do projeto
+
 head=ultima alteração
+
 main=master-->branch=ramificação-linha do tempo
+
 branch principal(main)
+
 git diff =mostra linha a linha do que foi alterado
+
 git restore .=restaura para o arquivo original
+
 git restore index.html=restaura um arquivo específico
+
 git restore --staged . ou git restore --stage index.html=desfazer uma alteração que já foi para stage=ultima modificação
+
 git commit --amend -m 'change page index.html'=alterar a mensagem do commit anterior
+
 git reset --soft HEAD~1=desfazendo o último comit
 
 ultima aula de git =Source Control do VSCode->tudo pelo vscode, sem terminal
 
 -----------------------------------------------------------------------------------
 ******Github-parte2*****
+
 git add readme=add uma descrição
+
 git branch - M main=muda do 'master' para o 'main'
+
 git remote add origin https://git@github.com:alissonif/CSS-3.3.git=adiciona uma origem remota no nosso git e copia esse endereço para add essa  referencia da onde é nosso repositorio remoto do github
+
 consultar endereço remoto=git remoto --v
+
 git push -u origin main=na primeira vez executa esse comando completo
+
 git push =salva nosso código local no github
+
  origin =referencia do nosso repositório remoto onde ele estar no github
+
 -u=memoriza na primeira  vez ai na proxima vez vc usa só usa 'git push'
 
 .gitignore=lista de arquivos e pasta que serão ignorados pelo git 
+
 git rm -r --cached .=git armazena em cache as pasta que tem que ser ignorada, por isso fazemos update no cache como se fosse o reset no cache
 
 .gitkeep para registrar uma pasta vazia no github
+
 histórico remoto=pode ver todos os commits no github
+
 git pull=busca por atualizações lá no github e traz tudo isso para a sua máquina local
 
 git remote --v=para ver a origem do repositório
