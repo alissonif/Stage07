@@ -151,7 +151,7 @@ git add readme=add uma descrição
 
 git branch - M main=muda do 'master' para o 'main'
 
-git remote add origin https://git@github.com:alissonif/CSS-3.3.git=adiciona uma origem remota no nosso git e copia esse endereço para add essa  referencia da onde é nosso repositorio remoto do github
+git remote add origin https://git@github.com:alissonif/CSS-3.3.git = adiciona uma origem remota no nosso git e copia esse endereço para add essa  referencia da onde é nosso repositorio remoto do github
 
 consultar endereço remoto=git remoto --v
 
